@@ -1,10 +1,10 @@
-#Features
+# Features
 - Create Virtual host on Nginx
 
-#Supported Platform
+# Supported Platform
 - Ubuntu 64 bit
 
-#Build
+# Build
 To build run the following commands sequentially.
 - `npm install`
 - `npm run prod`
