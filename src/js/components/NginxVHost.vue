@@ -47,6 +47,9 @@
                     </div>
 
                     <div class="panel-footer">
+                        <div class="pull-left">
+                            <button class="btn btn-default" @click="back()">Back</button>
+                        </div>
                         <div class="pull-right">
                             <button class="btn btn-primary" @click="submit()">Submit</button>
                         </div>
@@ -85,6 +88,9 @@
         methods: {
             updateServerNames(tags){
                 this.server_names = tags;
+            },
+            back(){
+                this.$router.back();
             },
             async submit(){
                 let server_names = _.map(this.server_names, server_name => {

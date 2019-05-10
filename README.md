@@ -1,5 +1,6 @@
 # Features
 - Create Virtual host on Nginx
+- Install Nginx
 
 # Supported Platform
 - Ubuntu 64 bit
